@@ -1,6 +1,10 @@
 .slidev-layout {
-  p + h2, ul + h2, table + h2 {
+  :is(p, ul, ol, table, blockquote, pre, h6) + h2 {
     @apply mt-10;
+  }
+
+  :is(p, ul, ol, table, blockquote, pre, h6) + h3 {
+    @apply mt-6;
   }
 
   h1,
