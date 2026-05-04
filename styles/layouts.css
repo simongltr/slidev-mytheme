@@ -7,6 +7,15 @@
     @apply mt-10;
   }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif;
+  }
+
   h1 {
     @apply text-4xl mb-4 -ml-[0.05em];
   }

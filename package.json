@@ -3,10 +3,11 @@
   "slidev": {
     "defaults": {
       "fonts": {
-        "mono": "Fira Code",
-        "sans": "Avenir Next,Nunito Sans",
-        "local": "Avenir Next"
-      }
+          "sans": "IBM Plex Sans",
+          "mono": "JetBrains Mono",
+          "serif": "Fraunces",
+          "local": "IBM Plex Sans"
+        }
     }
   },
   "dependencies": {
