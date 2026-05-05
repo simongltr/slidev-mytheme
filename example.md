@@ -100,3 +100,19 @@ class: "text-center"
 #### H4
 ##### H5
 ###### H6
+
+---
+
+# Components
+
+Regular text sits at the base level of the hierarchy.
+
+<Callout color="amber">Callout for emphasis. Default color: blue.</Callout>
+
+<Box color="violet">Box for grouped content. Default color: blue.</Box>
+
+<Keyword color="lime">Keyword</Keyword> for inline emphasis.
+
+<Caption>Caption for secondary text.</Caption>
+
+Available colors: red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose. Default: blue.
