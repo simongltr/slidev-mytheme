@@ -1,4 +1,8 @@
 .slidev-layout {
+  &.two-columns {
+    @apply gap-8;
+  }
+
   :is(p, ul, ol, table, blockquote, pre, h6) + h2 {
     @apply mt-10;
   }
